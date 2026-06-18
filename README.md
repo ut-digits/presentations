@@ -1,6 +1,6 @@
 # presentations
 
-Some of the presentaions will be visible as interactive webpages, some other will be available as PFD files to download.
+Some of the presentations will be visible as interactive websites, some will be available as PDF files to download.
 
 ## AI-teh seminars
 
