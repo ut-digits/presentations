@@ -1,4 +1,4 @@
-# presentations
+# Presentations
 
 Some of the presentations will be visible as interactive websites, some will be available as PDF files to download.
 
@@ -14,7 +14,7 @@ Some of the presentations will be visible as interactive websites, some will be 
 
 ## Large Language Models and the Estonian Language
 * Mark Fišel "Large Models, Small Data" [presentation](https://sisu.ut.ee/wp-content/uploads/sites/903/Mark-Fisel.-Large-Models-Small-Data.pdf) (November 2025)
-* Kairit Sirts "Improving Estonian Language Capabilities in Open LLMs: Opportunities and Challenges" [presentation](https://sisu.ut.ee/wp-content/uploads/sites/903/Kairit-Sirts.-Improving-Estonian-Language-Capabilities-in-Open-LLMs.pdf)
+* Kairit Sirts "Improving Estonian Language Capabilities in Open LLMs: Opportunities and Challenges" [presentation](https://sisu.ut.ee/wp-content/uploads/sites/903/Kairit-Sirts.-Improving-Estonian-Language-Capabilities-in-Open-LLMs.pdf) (November 2025)
 * Kristel Uiboaed, Eleri Aedmaa "Advancing Language Resources: Infrastructure, Data Collection at Scale, and Benchmarking Strategy" [presentation](https://sisu.ut.ee/wp-content/uploads/sites/903/Uiboaed-Aedmaa.-Advancing-Language-Resources.pdf) (November 2025)
 
 ## Digital Humanities at the University of Tartu
