@@ -10,7 +10,7 @@ Some of the presentations will be visible as interactive websites, some will be 
 ## AI-teh seminars
 
 * Andres Karjus "AI in Research: from Annotators to Assistants and Agents" [presentation](https://sisu.ut.ee/wp-content/uploads/sites/903/AI-agents-for-research-AIteh-talk-Andres-Karjus.pdf)
-(see also [paper generated during the talk](https://sisu.ut.ee/wp-content/uploads/sites/903/AI-agents-for-research-AIteh-talk-Andres-Karjus.pdf)) (June 2026)
+(see also [paper generated during the talk](https://sisu.ut.ee/wp-content/uploads/sites/903/AI-agents-for-research-AIteh-talk-Andres-Karjus.pdf) and the [recording on YouTube](https://www.youtube.com/watch?v=DaefZDDbfOQ) (June 2026)
 * Maciej Eder "Digital Humanities and AI: A Showcase" [presentation](https://ut-digits.github.io/presentations/AI-teh/) (May 2026)
 
 ## Large Language Models and the Estonian Language
