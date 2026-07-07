@@ -5,5 +5,6 @@ Some of the presentations will be visible as interactive websites, some will be 
 ## AI-teh seminars
 
 * Maciej Eder "Digital Humanities and AI: A Showcase" [presentation](https://ut-digits.github.io/presentations/AI-teh/)
-* Andres Karjus "AI in Research: from Annotators to Assistants and Agents" [presentation](https://sisu.ut.ee/wp-content/uploads/sites/903/AI-agents-for-research-AIteh-talk-Andres-Karjus.pdf) (see also [paper generated during the talk](https://sisu.ut.ee/wp-content/uploads/sites/903/AI-agents-for-research-AIteh-talk-Andres-Karjus.pdf))
+* Andres Karjus "AI in Research: from Annotators to Assistants and Agents" [presentation](https://sisu.ut.ee/wp-content/uploads/sites/903/AI-agents-for-research-AIteh-talk-Andres-Karjus.pdf)
+(see also [paper generated during the talk](https://sisu.ut.ee/wp-content/uploads/sites/903/AI-agents-for-research-AIteh-talk-Andres-Karjus.pdf))
 
