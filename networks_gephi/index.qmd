@@ -1,0 +1,245 @@
+---
+title: "Network Analysis </br> in Digital Humanities"
+subtitle: "pre-conference workshop at eadh2026"
+authors: 
+  - name: Maciej Eder 
+    #email: maciej.eder@ijppan.pl
+    affiliation: University of Tartu </br> Polish Academy of Sciences
+  - name: Botond Szemes
+    #email: botond.szemes@ut.ee
+    affiliation: University of Tartu
+date: 2026/09/14
+date-format: "DD/MM/YYYY"
+format: 
+  revealjs:
+    theme: pp.scss
+    #logo: UT_logo.svg
+    #css: big_logo.css
+    logo: DigiTS-RGB-short-SMALL.svg
+    css: big_logo_DigiTS.css
+    self_contained: false
+---
+
+
+
+##  general info
+
+- schedule
+- materials, data
+- links (tinyurl.com)
+- DigiTS
+- 6 degrees, 6 degrees of 
+
+
+
+
+# [https://tinyurl.com/networks-2026](https://tinyurl.com/networks-2026)
+
+![](img/networks-2026-qr.png){height=300}
+
+
+
+
+
+## Euler & seven bridges in Königsberg
+
+![](img/7_bridges.jpg)
+
+
+
+
+## Euler's problem as a network
+
+![](img/7_edges.png)
+
+
+
+
+## network analysis and optimization
+
+![](img/konigsberg_bridge_problem.jpg)
+
+
+
+## networks: core concepts
+
+::: columns
+::: {.column width="50%"}
+- nodes (aka vertices)
+- connections (aka edges)
+- weighted/unweithted
+- directed/undirected
+:::
+::: {.column width="50%"}
+![](img/simple_network.png){height=500}
+:::
+:::
+
+
+## different types of networks
+
+![](img/types_of_networks.png)
+
+
+## examples of networks
+
+- individuals (n), friendship (e)
+- scholars (n), co-authored papers (e)
+- reviewers (n), reviewed books (e)
+- fictional chatacters (n), dialogues (e)
+- words (n), semantic concepts (e)
+- literary works (n), stylistic proximity (e)
+- . . . 
+
+
+# examples
+
+
+## lexical network
+
+![](img/dickens_words.png)
+
+
+
+## syntax tree 
+
+![](img/ParseTree.svg)
+
+
+
+## artificial neural netrwork
+
+![](img/neural_networks-006.png)
+
+
+
+## chemical molecule: Bivalirudin
+
+![](img/bivalirudin.png)
+
+
+
+## textual similarities
+
+![](img/124_Greek_texts.png)
+
+
+
+# network layouts
+
+
+## layouts
+
+- manual
+- algorithmic
+- algorithmic, with manual rearrangements
+    - node adjustments
+    - label tuning
+    - . . . 
+
+
+
+##
+
+![](img/hamlet_moretti.jpg)
+
+
+## 
+
+![](img/hamlet_dracor.png)
+
+
+## 
+
+![](img/hamlet_force_directed.png)
+
+
+## 
+
+![](img/hamlet_circular.png)
+
+
+## 
+
+![](img/hamlet_circular_filtered.png)
+
+
+
+
+## a perfect layout?
+
+```{r}
+library(DiagrammeR)
+
+grViz("digraph {
+  graph [layout = circo, bgcolor = transparent]
+
+  # Define defaults FIRST so ALL nodes inherit them uniformly
+  node [shape = circle, style = filled, fixedsize = true, width = 2.5,
+penwidth = 2]
+
+  h1 [label = 'legibility\n(explanatory power)', fillcolor = Beige]
+  h2   [label = 'reliability\n(insight to data)', fillcolor = LightBlue]
+  h3   [label = 'impact\n(visual attractiveness)', fillcolor = Linen]
+
+  # Connect them fully
+  h1 -> h2
+  h2 -> h3
+  h3 -> h1
+
+  # Clean up edge styling for visual symmetry
+  edge [arrowhead = normal, arrowsize = 0.8, penwidth = 1.5]
+}")
+```
+
+
+## a caveat: it's a representation!
+
+```{r, echo = FALSE, message = FALSE}
+library(stylo)
+data(galbraith)
+rownames(galbraith) = gsub("_[0-9]+", "", rownames(galbraith))
+round(galbraith[1:20,1:12], 2)
+```
+
+
+## a representation
+
+![](img/28_novels.png)
+
+
+
+
+
+# hands-on: fictional characters
+
+
+
+# community detection
+
+
+
+## Hierarchical cluster analysis
+
+```{r, echo = FALSE, message = FALSE, fig.align = "center"}
+stylo(frequencies = galbraith, gui = FALSE, titles.on.graphs = FALSE)
+```
+
+
+
+## 
+
+![](img/66_English_novels_network.png)
+
+
+
+
+
+
+# hands-on: textual similarities
+
+
+
+
+
+
