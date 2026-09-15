@@ -67,6 +67,42 @@ format:
 :::
 
 
+## what is Network Analysis?
+
+::: columns
+::: {.column width="40%"}
+- study of relationships among entities (nodes) and connections (edges).
+- widely used in sociology, biology, economics, politics, history, art…
+- example: Florentine marriage network in 1430’s:
+:::
+::: {.column width="60%"}
+![](img/medici.jpg){height=500}
+:::
+:::
+
+
+## basic network properties
+
+::: columns
+::: {.column width="40%"}
+- _Degree_: number of edges per node.
+- _Centrality_: measure of a node’s influence.
+- _Betweenness centrality_: measures how frequently a node appears on the shortest path between all other nodes in the graph.
+:::
+::: {.column width="60%"}
+![](img/starwars.png){height=500}
+:::
+:::
+
+
+
+## which is the most central node?
+
+![](img/swiss_railway.png){height=500}
+
+
+
+
 ## different types of networks
 
 ![](img/types_of_networks.png)
@@ -116,18 +152,15 @@ format:
 
 
 
+# hands-on: Gephi
+
+
+## DraCor: thousands of texts
+
+![](img/dracor.png)
+
+
 # network layouts
-
-
-## layouts
-
-- manual
-- algorithmic
-- algorithmic, with manual rearrangements
-    - node adjustments
-    - label tuning
-    - . . . 
-
 
 
 ##
@@ -172,6 +205,15 @@ round(galbraith[1:20,1:12], 2)
 
 
 
+## layouts
+
+- manual
+- algorithmic
+- algorithmic, with manual rearrangements
+    - node adjustments
+    - label tuning
+    - . . . 
+
 
 ## layouts (cont.)
 
@@ -183,6 +225,10 @@ round(galbraith[1:20,1:12], 2)
 - emphasize relations:
     - Circular
 
+
+## force-directed layout
+
+- test out this [interactive example](https://vega.github.io/vega/examples/force-directed-layout/)
 
 
 
@@ -215,9 +261,9 @@ penwidth = 2]
 
 
 
-
-
 # hands-on: who speaks to Hamlet
+
+
 
 
 

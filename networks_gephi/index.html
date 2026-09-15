@@ -193,6 +193,36 @@ Botond Szemes
 <p><img data-src="img/simple_network.png" height="500"></p>
 </div></div>
 </section>
+<section id="what-is-network-analysis" class="slide level2">
+<h2>what is Network Analysis?</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>study of relationships among entities (nodes) and connections (edges).</li>
+<li>widely used in sociology, biology, economics, politics, history, art…</li>
+<li>example: Florentine marriage network in 1430’s:</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/medici.jpg" height="500"></p>
+</div></div>
+</section>
+<section id="basic-network-properties" class="slide level2">
+<h2>basic network properties</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li><em>Degree</em>: number of edges per node.</li>
+<li><em>Centrality</em>: measure of a node’s influence.</li>
+<li><em>Betweenness centrality</em>: measures how frequently a node appears on the shortest path between all other nodes in the graph.</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/starwars.png" height="500"></p>
+</div></div>
+</section>
+<section id="which-is-the-most-central-node" class="slide level2">
+<h2>which is the most central node?</h2>
+<p><img data-src="img/swiss_railway.png" height="500"></p>
+</section>
 <section id="different-types-of-networks" class="slide level2">
 <h2>different types of networks</h2>
 
@@ -235,22 +265,18 @@ Botond Szemes
 
 <img data-src="img/124_Greek_texts.png" class="r-stretch"></section></section>
 <section>
+<section id="hand-on-gephi" class="title-slide slide level1 center">
+<h1>hand-on: Gephi</h1>
+
+</section>
+<section id="dracor-thousands-of-texts" class="slide level2">
+<h2>DraCor: thousands of texts</h2>
+
+<img data-src="img/dracor.png" class="r-stretch"></section></section>
+<section>
 <section id="network-layouts" class="title-slide slide level1 center">
 <h1>network layouts</h1>
 
-</section>
-<section id="layouts" class="slide level2">
-<h2>layouts</h2>
-<ul>
-<li>manual</li>
-<li>algorithmic</li>
-<li>algorithmic, with manual rearrangements
-<ul>
-<li>node adjustments</li>
-<li>label tuning</li>
-<li>. . .</li>
-</ul></li>
-</ul>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
@@ -325,6 +351,19 @@ rowling_order        0.84</code></pre>
 <h2>a representation</h2>
 
 <img data-src="img/28_novels.png" class="r-stretch"></section>
+<section id="layouts" class="slide level2">
+<h2>layouts</h2>
+<ul>
+<li>manual</li>
+<li>algorithmic</li>
+<li>algorithmic, with manual rearrangements
+<ul>
+<li>node adjustments</li>
+<li>label tuning</li>
+<li>. . .</li>
+</ul></li>
+</ul>
+</section>
 <section id="layouts-cont." class="slide level2">
 <h2>layouts (cont.)</h2>
 <ul>
@@ -343,17 +382,23 @@ rowling_order        0.84</code></pre>
 </ul></li>
 </ul>
 </section>
+<section id="force-directed-layout" class="slide level2">
+<h2>force-directed layout</h2>
+<ul>
+<li>test out this <a href="https://vega.github.io/vega/examples/force-directed-layout/">interactive example</a></li>
+</ul>
+</section>
 <section id="a-perfect-layout" class="slide level2">
 <h2>a perfect layout?</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-4c0046cde7c71de6550e" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-4c0046cde7c71de6550e">{"x":{"diagram":"digraph {\n  graph [layout = circo, bgcolor = transparent]\n\n  # Define defaults FIRST so ALL nodes inherit them uniformly\n  node [shape = circle, style = filled, fixedsize = true, width = 2.5,\npenwidth = 2]\n\n  h1 [label = \"legibility\n(explanatory power)\", fillcolor = Beige]\n  h2   [label = \"reliability\n(insight to data)\", fillcolor = LightBlue]\n  h3   [label = \"impact\n(visual attractiveness)\", fillcolor = Linen]\n\n  # Connect them fully\n  h1 -> h2\n  h2 -> h3\n  h3 -> h1\n\n  # Clean up edge styling for visual symmetry\n  edge [arrowhead = normal, arrowsize = 0.8, penwidth = 1.5]\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-8b483d9f40760704854f" style="width:960px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-8b483d9f40760704854f">{"x":{"diagram":"digraph {\n  graph [layout = circo, bgcolor = transparent]\n\n  # Define defaults FIRST so ALL nodes inherit them uniformly\n  node [shape = circle, style = filled, fixedsize = true, width = 2.5,\npenwidth = 2]\n\n  h1 [label = \"legibility\n(explanatory power)\", fillcolor = Beige]\n  h2   [label = \"reliability\n(insight to data)\", fillcolor = LightBlue]\n  h3   [label = \"impact\n(visual attractiveness)\", fillcolor = Linen]\n\n  # Connect them fully\n  h1 -> h2\n  h2 -> h3\n  h3 -> h1\n\n  # Clean up edge styling for visual symmetry\n  edge [arrowhead = normal, arrowsize = 0.8, penwidth = 1.5]\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section></section>
-<section id="hands-on-fictional-characters" class="title-slide slide level1 center">
-<h1>hands-on: fictional characters</h1>
+<section id="hands-on-who-speaks-to-hamlet" class="title-slide slide level1 center">
+<h1>hands-on: who speaks to Hamlet</h1>
 
 </section>
 
