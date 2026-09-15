@@ -8,7 +8,7 @@ authors:
   - name: Botond Szemes
     #email: botond.szemes@ut.ee
     affiliation: University of Tartu
-date: 2026/09/14
+date: 2026/09/15
 date-format: "DD/MM/YYYY"
 format: 
   revealjs:
@@ -20,15 +20,6 @@ format:
     self_contained: false
 ---
 
-
-
-##  general info
-
-- schedule
-- materials, data
-- links (tinyurl.com)
-- DigiTS
-- 6 degrees, 6 degrees of 
 
 
 
@@ -64,13 +55,13 @@ format:
 ## networks: core concepts
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="40%"}
 - nodes (aka vertices)
 - connections (aka edges)
 - weighted/unweithted
 - directed/undirected
 :::
-::: {.column width="50%"}
+::: {.column width="60%"}
 ![](img/simple_network.png){height=500}
 :::
 :::
@@ -165,6 +156,36 @@ format:
 
 
 
+## a caveat: it's a representation!
+
+```{r, echo = FALSE, message = FALSE}
+library(stylo)
+data(galbraith)
+rownames(galbraith) = gsub("_[0-9]+", "", rownames(galbraith))
+round(galbraith[1:20,1:12], 2)
+```
+
+
+## a representation
+
+![](img/28_novels.png)
+
+
+
+
+## layouts (cont.)
+
+- emphasize centrality:
+    - ForceAtlas2
+    - YiFanHu's Multilevel
+- emphasize partitions:
+    - OpenOrd
+- emphasize relations:
+    - Circular
+
+
+
+
 
 ## a perfect layout?
 
@@ -193,25 +214,10 @@ penwidth = 2]
 ```
 
 
-## a caveat: it's a representation!
-
-```{r, echo = FALSE, message = FALSE}
-library(stylo)
-data(galbraith)
-rownames(galbraith) = gsub("_[0-9]+", "", rownames(galbraith))
-round(galbraith[1:20,1:12], 2)
-```
-
-
-## a representation
-
-![](img/28_novels.png)
 
 
 
-
-
-# hands-on: fictional characters
+# hands-on: who speaks to Hamlet
 
 
 

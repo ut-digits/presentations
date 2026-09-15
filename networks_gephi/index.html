@@ -160,17 +160,7 @@ Botond Szemes
     </div>
 </div>
 
-  <p class="date">14/09/2026</p>
-</section>
-<section id="general-info" class="slide level2">
-<h2>general info</h2>
-<ul>
-<li>schedule</li>
-<li>materials, data</li>
-<li>links (tinyurl.com)</li>
-<li>DigiTS</li>
-<li>6 degrees, 6 degrees of</li>
-</ul>
+  <p class="date">15/09/2026</p>
 </section>
 <section>
 <section id="httpstinyurl.comnetworks-2026" class="title-slide slide level1 center">
@@ -192,14 +182,14 @@ Botond Szemes
 <section id="networks-core-concepts" class="slide level2">
 <h2>networks: core concepts</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
+<div class="column" style="width:40%;">
 <ul>
 <li>nodes (aka vertices)</li>
 <li>connections (aka edges)</li>
 <li>weighted/unweithted</li>
 <li>directed/undirected</li>
 </ul>
-</div><div class="column" style="width:50%;">
+</div><div class="column" style="width:60%;">
 <p><img data-src="img/simple_network.png" height="500"></p>
 </div></div>
 </section>
@@ -282,15 +272,6 @@ Botond Szemes
 <h2></h2>
 
 <img data-src="img/hamlet_circular_filtered.png" class="r-stretch"></section>
-<section id="a-perfect-layout" class="slide level2">
-<h2>a perfect layout?</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-28f8134d211fb96f97c9" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-28f8134d211fb96f97c9">{"x":{"diagram":"digraph {\n  graph [layout = circo, bgcolor = transparent]\n\n  # Define defaults FIRST so ALL nodes inherit them uniformly\n  node [shape = circle, style = filled, fixedsize = true, width = 2.5,\npenwidth = 2]\n\n  h1 [label = \"legibility\n(explanatory power)\", fillcolor = Beige]\n  h2   [label = \"reliability\n(insight to data)\", fillcolor = LightBlue]\n  h3   [label = \"impact\n(visual attractiveness)\", fillcolor = Linen]\n\n  # Connect them fully\n  h1 -> h2\n  h2 -> h3\n  h3 -> h1\n\n  # Clean up edge styling for visual symmetry\n  edge [arrowhead = normal, arrowsize = 0.8, penwidth = 1.5]\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-</section>
 <section id="a-caveat-its-a-representation" class="slide level2">
 <h2>a caveat: it’s a representation!</h2>
 <div class="cell">
@@ -343,7 +324,34 @@ rowling_order        0.84</code></pre>
 <section id="a-representation" class="slide level2">
 <h2>a representation</h2>
 
-<img data-src="img/28_novels.png" class="r-stretch"></section></section>
+<img data-src="img/28_novels.png" class="r-stretch"></section>
+<section id="layouts-cont." class="slide level2">
+<h2>layouts (cont.)</h2>
+<ul>
+<li>emphasize centrality:
+<ul>
+<li>ForceAtlas2</li>
+<li>YiFanHu’s Multilevel</li>
+</ul></li>
+<li>emphasize partitions:
+<ul>
+<li>OpenOrd</li>
+</ul></li>
+<li>emphasize relations:
+<ul>
+<li>Circular</li>
+</ul></li>
+</ul>
+</section>
+<section id="a-perfect-layout" class="slide level2">
+<h2>a perfect layout?</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="grViz html-widget html-fill-item" id="htmlwidget-4c0046cde7c71de6550e" style="width:960px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-4c0046cde7c71de6550e">{"x":{"diagram":"digraph {\n  graph [layout = circo, bgcolor = transparent]\n\n  # Define defaults FIRST so ALL nodes inherit them uniformly\n  node [shape = circle, style = filled, fixedsize = true, width = 2.5,\npenwidth = 2]\n\n  h1 [label = \"legibility\n(explanatory power)\", fillcolor = Beige]\n  h2   [label = \"reliability\n(insight to data)\", fillcolor = LightBlue]\n  h3   [label = \"impact\n(visual attractiveness)\", fillcolor = Linen]\n\n  # Connect them fully\n  h1 -> h2\n  h2 -> h3\n  h3 -> h1\n\n  # Clean up edge styling for visual symmetry\n  edge [arrowhead = normal, arrowsize = 0.8, penwidth = 1.5]\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section></section>
 <section id="hands-on-fictional-characters" class="title-slide slide level1 center">
 <h1>hands-on: fictional characters</h1>
 
