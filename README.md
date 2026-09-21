@@ -2,6 +2,7 @@
 
 Some of the presentations will be visible as interactive websites, some will be available as PDF files to download.
 
+
 ## DigiTS researchers
 
 * DigiTS I Annual Progress meeting: overview of Year 1 & the research team's work [presentations](https://sisu.ut.ee/wp-content/uploads/sites/903/DigiTS-I-Annual-Progress-Meeting_research-slides.pdf) (February 2026)
@@ -24,7 +25,7 @@ Some of the presentations will be visible as interactive websites, some will be 
 * Liina Lindström "Digital Humanities at the University of Tartu" [presentation](https://sisu.ut.ee/wp-content/uploads/sites/903/Lindstrom.-DH-in-UT-1.pptx) (April 2025)
 * Joshua Wilbur "DigiTS- A Vision and a Plan" [presentation](https://sisu.ut.ee/wp-content/uploads/sites/903/Wilbur.-DigiTS-A-Vision-and-a-Plan-1.pdf) (April 2025)
 
-## Publication strategy
+## Humanities Publishing in the Age of AI
 
 * Artjoms Šela "Where to Publish? Digital Humanities between DIY and Academic Journals" [presentation](https://sisu.ut.ee/wp-content/uploads/sites/903/Where-to-publish_digital-humanities.pdf) (April 2026)
 * Alan Colin-Arce "The Humanities and Social Sciences Commons: A Multilingual Space for Scholarship and Connection" [presentation](https://sisu.ut.ee/wp-content/uploads/sites/903/Humanities-and-SS-Commons.pdf) (April 2026)
